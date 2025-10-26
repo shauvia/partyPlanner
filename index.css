@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 2em;
+}
+
+main section:nth-of-type(2) {
+  margin-left: 2em;
+}
+
+.eventList {
+  list-style: none;
+  display: grid;
+  gap: 1ch;
+}
+
+.eventList a {
+  color: unset;
+  text-decoration: unset;
+  display: block;
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 0.25rem;
+  padding: 1ch;
+}
+
+.eventList a:hover {
+  background: #d1f1f5ab;
+}
+
+.event {
+  display: grid;
+  gap: 1ch;
+}
