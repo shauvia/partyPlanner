@@ -38,6 +38,7 @@ main section:nth-of-type(2) {
 
 .eventList a:hover {
   background: #d1f1f5ab;
+  text-decoration: underline;
 }
 
 .event {
